@@ -1,5 +1,5 @@
 console.log(typeof(this.b))
-console.log(window.b)
+// console.log(window.b)
 var a=10;
 console.log(a)
 function b(){
@@ -9,7 +9,7 @@ function b(){
 //  console.log(window.a)
  console.log(b())
 //  console.log(window.a)
-//  console.log(this)
+ console.log(this)
 
 // undefine and not define if different 
 // undefine when ever the memory execution happen that time it will only alocate the memory to variable it doesnt assign the value to that once 

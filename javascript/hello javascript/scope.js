@@ -8,10 +8,12 @@ function a(){
     }
 
 }
+// console.log(b);
 // we cant access the value of a  
 // console.log(b);
 var a2=20;
 a();
+
 // lexical environment
 //  chech the variable is present in same envinornament or in parent envinornment
 //  scope chain

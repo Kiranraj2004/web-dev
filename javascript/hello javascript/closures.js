@@ -35,7 +35,7 @@ function outest(){
     // var c=10;
     function outer(b){
         function inner(){
-            console.log(b,c);
+            console.log(b,c,"adsdkd");
         }
         return inner;
     }

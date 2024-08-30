@@ -33,7 +33,7 @@ console.log(a);
 //  it gives the 100 only beacuse a1 is same in the globle execution
 
 //  we have 3 scope block, script , globle 
-console.log(a1);
+console.log(a1,"kiran ");
 
 // ilegal shadowing 
 let w=0;
@@ -50,4 +50,4 @@ console.log(w);
     let s=78;
     console.log(s);
  }
-    //   this is valid because the variable should nit cross the boundry os scope
+    //   this is valid because the variable should not cross the boundry os scope

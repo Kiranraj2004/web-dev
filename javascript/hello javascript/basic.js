@@ -8,6 +8,7 @@
    it can execute nly one commond  
     execution content the first step create memory space
      it will create goble execution and every time it will push into the call stack*/
+//  there is two phase in execution  memory allocation phase
 
 
    //   js is lossly language or weakly  typr language

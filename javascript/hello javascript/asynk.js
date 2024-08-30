@@ -12,6 +12,6 @@ function x1(){
     }
 }
 var s=x1();
-console.log(s().a1);
+console.log(s());
 console.log(9);
 // console.log(9);
