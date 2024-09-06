@@ -1,0 +1,106 @@
+.head{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    position: fixed;
+    background-color: white;
+    right: 0px
+    left 0px;
+   
+
+}
+
+.leftsection{
+    /* display: inline-block; */
+    width: 220px;
+   
+    margin-left: 1px;
+    margin-right: 90px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    cursor: pointer;
+}
+.bar{
+    height: 30px;
+}
+.logo{
+    margin-left: 30px;
+    height: 35px;
+}
+.logotext{
+    height:34px; 
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+.pow{
+  font-size: 13px;
+    color: grey;
+}
+.centersection{
+    display: inline-block;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    
+
+}
+
+.textbox{
+    width: 470px;
+    height: 40px;
+   border-start-start-radius: 20px;
+   border-bottom-left-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    padding-left: 40px;
+    font-size: 20px;
+    flex :3;
+}
+.text::placeholder{
+    font-size: 10px;
+}
+.search{
+    height: 20px;
+    color: white;
+   
+}
+.search1{
+    background-color: rgb(235, 234, 234) ;
+    height: 42px;
+    width: 70px;
+    border-style: solid;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius:21px;
+    border-end-end-radius: 21px;
+}
+.mic{
+    margin-left: 10px;
+    height: 35px;
+    background-color: rgb(235, 234, 234) ;
+    border-radius: 20px;
+}
+.rightsection{
+    display: inline-block;
+    width: 200px;  
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.creator{
+    height: 30px;  
+}
+.notification{
+    height: 30px;   
+}

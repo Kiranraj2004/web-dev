@@ -1,0 +1,58 @@
+
+    .uber{
+        background-color: black;
+        color: aliceblue;
+        height: 35px;
+        width: 110px;
+        border: none;
+        transition: opacity 0.15s;
+        cursor: pointer;
+
+    }
+    .uber:hover{
+        opacity: 0.7;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    .signs{
+        transition: box-shadow 0.15s;
+    }
+    .signs:hover{
+        box-shadow:1px 1px 5px black;
+    }
+    .am:hover{
+        background-color:rgb(226, 203, 84);
+
+    }
+    .signs{
+        height: 30px;
+        width: 80px;
+        background-color: rgb(46, 164, 79);
+        color: whitesmoke;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+    .boot1:hover{
+        background-color: rgb(106, 113, 125);
+        color: white;
+
+    }
+    .boot1{
+        transition: background-color 0.15s , color 0.15s;
+    }
+    .boot:hover{
+        
+        background-color: rgb(93, 67, 118);
+    }
+
+.link:hover{
+    background-color:rgb(8, 61, 114) ;
+
+}
+.link1:hover{
+    background-color:rgb(147, 209, 234);
+    border-width: 2px;
+    box-shadow: 1px 1px 10px blue;
+}
+

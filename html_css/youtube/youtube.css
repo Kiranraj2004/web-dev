@@ -1,0 +1,41 @@
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  
+    
+}
+.video{
+ display: inline-block;
+ flex:1;
+ 
+
+}
+.thum
+{
+    display: block;
+}
+.pro{
+    display:inline-block;
+    
+   
+}
+.profile{
+    height: 45px;
+    width: 45px;
+    margin-top: 10px;
+    border-radius: 22px;
+
+}
+.con{
+   display: grid;
+   grid-template-columns: 50px 320px;
+}
+.thumbnails{
+    width: 400px;
+    height: 220px; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+.info{
+    width: 350px;
+}

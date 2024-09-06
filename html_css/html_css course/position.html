@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="height: 1000px;
+width: 1000px;
+margin-top: 70px;
+padding-left: 90px;
+
+ ">
+    <div style="background-color: black;
+    color: white;
+    height: 40px;
+    position:fixed;
+    left: 10px;
+    bottom: 10px;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    "> header</div>
+    <div style=" 
+    display: flex;
+     flex-direction: column;
+     background-color: black;
+     color: white;
+     height: 1000px;
+     width: 50px;
+     position: fixed;
+     top: 70px;
+     left: 10px;">
+        slide bar
+        <div
+        style="background-color: red;
+        position: absolute;
+        right :10px;
+        top: 10px;"> X</div>
+
+        <div style="position:relative;
+        background-color: blue;
+        left: 60px;
+        ">
+            r
+        </div>
+    </div>
+    <!-- fixed is placed in the browser window when we scroll down the page the fixed element will be in the same position -->
+     <!-- absolute placed on the page when we scroll down it move along with that -->
+    <div style="position:absolute;
+        background-color: blue;
+        color: white; 
+        right: 10px;
+        z-index: 0;">
+         absolute
+        </div>
+
+    <div style="height: 200px;
+    width: 200px;
+    background-color: skyblue;">
+        div1 
+    </div>
+    <div style="height: 200px;
+    width: 200px;
+    background-color: pink;
+    margin-top: 20px;
+    position: relative;
+    ">
+    <div style="position:absolute;
+    background-color :black;
+    color: white;
+    bottom: 20px;
+    right :0px;
+    ">
+        2:00
+        </div>
+        div2 
+    </div>
+    
+</body>
+</html>

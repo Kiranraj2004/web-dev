@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <style>
+            .sub{
+                margin-right: 8px;
+                background-color: rgba(197, 33, 33, 0.942);
+                color: white; 
+                Padding: 5px;
+                border: none;
+                border-radius: 2px;
+                cursor: pointer;
+                height: 30px;
+                 width: 100px;
+                 transition: opacity 0.15s;
+    
+            }
+            /* hover is pesudo class when ever we move on that button it chnage change the color */
+
+            .sub:hover{
+                /* background-color: green; */
+                opacity: 0.7;
+                /* opacity is property os css which gives transparensi effect it range between 1-0 1 is lower */
+            }
+            /* when ever we click on the button then it will change the color */
+            .sub:active{
+                /* background-color: blue; */
+                opacity: 0.3;
+            }
+            .join{
+                border-width: 1px;
+                background-color: white;
+                border-style:solid ;
+                color: rgb(10, 175, 241);
+                 padding: 1%;
+                 border-color:rgb(10, 175, 241) ;
+                 width: 50px;
+                 border-radius: 2px;
+                 transition: background-color 1s,color 1s ;
+    
+            }
+            .join:active{
+                opacity: 0.7;
+            }
+            .join:hover{
+                color:white ;
+                background-color:rgb(10, 175, 241) ;
+            }
+            .t{
+                background-color: rgb(0, 183, 255);
+                color: white;
+                border-color:skyblue ;
+                border-style: solid ;
+                height: 36px;
+                width: 70px;
+                border-radius: 18px;
+                font-weight: bold;
+                cursor: pointer;
+                margin-left: 8px;
+                /* shadow takes 4 values  horizontal width 
+                vertical widht blur of the color at last color  */
+                box-shadow:1px 1px 10px rgba(0,0,0,0.7);
+                transition: box-shadow 0.15s;
+                /* in rgba a is opcacity it takes four values last value takes the opcacity */
+            }
+            .t:hover{
+                box-shadow:1px 1px 10px black;
+            }
+        </style>
+        <button class="sub">SUBSCRIBE</button>
+        <button class="join" ><b>JOIN</b> </button>
+        <button class="t"><b>Tweet</b></button>      
+    
+</body>
+</html>
