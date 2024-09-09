@@ -1,9 +1,19 @@
  import logo from './logo.svg';
 import './App.css';
+import Hello from './jsx';
+import Greet from './components/functional_components';
+// import Greet from './components/functional_components';
+// import welcome from './components/class_components';
+//  Greet   can be name has any think if we use default export 
+// we can inport the component greet like this 
+// import {Greet1} from './components/functional_components'
 
 function App() {
   return (
     <div className="App">
+      ndjsjdj
+      <Hello></Hello>
+      <Hello />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -17,7 +27,10 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> 
+      <Greet/>
+       <Greet />
+      <Greet></Greet>
     </div>
   );
 }

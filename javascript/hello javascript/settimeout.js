@@ -21,7 +21,7 @@
 // if we use the let variable then it will store the value of i 
 //  if we use the var variable then it will store the reference 
 function x(){
-    for(let i=0;i<4;i++){
+    for(let i=0;i<10;i++){
         function close(j){
             setTimeout( function (){
                 console.log(j);
