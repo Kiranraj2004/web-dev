@@ -1,20 +1,28 @@
- import logo from './logo.svg';
+//  import logo from './logo.svg';
 import './App.css';
-import Hello from './jsx';
-import Greet from './components/functional_components';
+// import Hello from './jsx';
+// import Greet from './components/functional_components';
 // import Greet from './components/functional_components';
 // import welcome from './components/class_components';
 //  Greet   can be name has any think if we use default export 
 // we can inport the component greet like this 
 // import {Greet1} from './components/functional_components'
-
+import Display from './props';
 function App() {
   return (
     <div className="App">
-      ndjsjdj
-      <Hello></Hello>
-      <Hello />
-      <header className="App-header">
+
+      {/* <Hello></Hello>
+      <Hello /> */}
+      <Display name="arya" hero="batman">
+        <p> new hrizon</p>
+      </Display>
+       <Display name ="kiraan"/>
+      <Display name="mahesh">
+        <button> submit</button>
+        {/*  we can use this as props.children */}
+      </Display>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           hello world
@@ -27,10 +35,8 @@ function App() {
         >
           Learn React
         </a>
-      </header> 
-      <Greet/>
-       <Greet />
-      <Greet></Greet>
+      </header>  */}
+     
     </div>
   );
 }
