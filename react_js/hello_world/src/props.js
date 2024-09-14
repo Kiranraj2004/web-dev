@@ -23,16 +23,17 @@ import React, { Component } from "react";
 //         );
 //     }
     //  we can also destructure methos attributes inside the body
-    // const Display=(props)=>{
-    //     const {name,hero}=props
-    //     return (
-    //         <div>
-    //     <h1>hello {name} and hero {hero}
-    //     </h1>
-    //     {props.children}
-    //     </div>
-    //     );
-    // }
+    const Display=(props)=>{
+        const {name,hero}=props
+        return (
+            <div>
+        <h1>hello {name} and hero {hero}
+        </h1>
+        {/*  this is used to diaplay what ever we hae writen in Display tag */}
+        {props.children}
+        </div>
+        );
+    }
 // class Welcome extends Component{
 //     render(){
 //         return <h1> welcome {this.props.name} a.k {this.props.hero}</h1>
@@ -43,11 +44,11 @@ import React, { Component } from "react";
 // here we are using the input of the user
 //  how we can destructure in class component
 
-class Welcome extends Component{
-    render(){
-    const {name,hero}=this.props;
-        return <h1> welcome {name} a.k {hero}</h1>
-    }
-    // we have to use the this key word for this  
-}
-export default Welcome;
+// class Welcome extends Component{
+//     render(){
+//     const {name,hero}=this.props;
+//         return <h1> welcome {name} a.k {hero}</h1>
+//     }
+//     // we have to use the this key word for this  
+// }
+export default Display;
