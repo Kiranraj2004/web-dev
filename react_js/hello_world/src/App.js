@@ -1,5 +1,7 @@
 //  import logo from './logo.svg';
 import './App.css';
+import RefsDemo from './components/RefsDemo';
+import Fragments from './fragments';
 // import Hello from './jsx';
 // import Greet from './components/functional_components';
 // import Greet from './components/functional_components';
@@ -18,7 +20,10 @@ import './App.css';
 // import Style_sheet from './components/Style_sheet';
 // import Form from './components/form';
 import Lifecycle from './LifecycleA';
+import Parentregularcomponent from './Parentregularcomponent';
+import Purecom from './Pureco';
 import LifecycleUA from './Updating_Lifecycle';
+
 function App() {
   return (
     <div className="App">
@@ -58,7 +63,12 @@ function App() {
 {/* <Style_sheet></Style_sheet>
    <Form></Form> */}
    {/* <Lifecycle/> */}
-   <LifecycleUA></LifecycleUA>
+   {/* <LifecycleUA></LifecycleUA> */}
+   {/* <Fragments></Fragments> */}
+   {/* <Purecom></Purecom> */}
+   {/* <Parentregularcomponent></Parentregularcomponent> */}
+   <RefsDemo></RefsDemo>
+ 
     </div>
 
   );
