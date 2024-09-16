@@ -28,6 +28,12 @@ import Purecom from './Pureco';
 import LifecycleUA from './Updating_Lifecycle';
 import Errorhandler from './components/Errorhandler';
 import HigherOrderfunction from './components/HigherOrderfunction';
+import RenderProps from './components/RenderProps';
+import Renderpropsdemo from './components/Renderpropsdemo';
+import ComponentB from './components/ComponentB';
+import { Userprovider } from './components/Contextdemo';
+import Httprequestget from './Httprequestget';
+import Httppost from './Httppost';
 
 function App() {
   return (
@@ -84,10 +90,18 @@ function App() {
    {/* <Errorhandler>
    <ErrorBoundary heroname="kiran"></ErrorBoundary>
    </Errorhandler> */}
-   <HigherOrderfunction></HigherOrderfunction>
-   
-   
- 
+   {/* <HigherOrderfunction></HigherOrderfunction> */}
+   {/* <RenderProps></RenderProps>
+   <Renderpropsdemo render={()=>"kiran"}></Renderpropsdemo> */}
+   {/* <Renderpropsdemo render={(count,increment)=>{
+    <RenderProps count={count} increment={increment} />
+   }}/> */}
+   {/* <Userprovider value="vishwas">
+   <ComponentB></ComponentB>
+   </Userprovider> */}
+   {/* <Httprequestget></Httprequestget>
+    */}
+    <Httppost></Httppost>
     </div>
 
   );
