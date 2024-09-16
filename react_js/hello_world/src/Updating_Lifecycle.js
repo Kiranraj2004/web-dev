@@ -67,6 +67,6 @@ export default LifecycleUA
 // it has two method 
 // 1 static getDerivedstateFromError(error)
 // 2 componentDidCatch(error,info)->
-//  this can be used whenthere in an erro either during rendering in a lifecycle method or in the constructor of any child conponent
+//  this can be used whenthere in an error either during rendering in a lifecycle method or in the constructor of any child conponent
 
 

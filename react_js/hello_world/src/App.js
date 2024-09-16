@@ -1,5 +1,8 @@
 //  import logo from './logo.svg';
 import './App.css';
+import ErrorBoundary from './components/ErrorBoundary';
+import Forwardparentrefs from './components/Forwardparentrefs';
+import Portals from './components/Portals';
 import RefsDemo from './components/RefsDemo';
 import Fragments from './fragments';
 // import Hello from './jsx';
@@ -23,6 +26,8 @@ import Lifecycle from './LifecycleA';
 import Parentregularcomponent from './Parentregularcomponent';
 import Purecom from './Pureco';
 import LifecycleUA from './Updating_Lifecycle';
+import Errorhandler from './components/Errorhandler';
+import HigherOrderfunction from './components/HigherOrderfunction';
 
 function App() {
   return (
@@ -67,7 +72,21 @@ function App() {
    {/* <Fragments></Fragments> */}
    {/* <Purecom></Purecom> */}
    {/* <Parentregularcomponent></Parentregularcomponent> */}
-   <RefsDemo></RefsDemo>
+   {/* <RefsDemo></RefsDemo> */}
+   {/* <Forwardparentrefs></Forwardparentrefs> */}
+   {/* <Portals></Portals> */}
+   
+
+   
+   {/* <Errorhandler>
+   <ErrorBoundary heroname="mithun"></ErrorBoundary>
+   </Errorhandler> */}
+   {/* <Errorhandler>
+   <ErrorBoundary heroname="kiran"></ErrorBoundary>
+   </Errorhandler> */}
+   <HigherOrderfunction></HigherOrderfunction>
+   
+   
  
     </div>
 

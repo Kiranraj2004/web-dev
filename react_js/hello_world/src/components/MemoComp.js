@@ -10,5 +10,6 @@ function MemoComp({name}) {
 }
 //  this is going to render again and agian but the name is same 
 //  to avoid this 
+//  same as pure compoenet class
 // use 
 export default React.memo(MemoComp)

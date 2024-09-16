@@ -2,7 +2,7 @@
 // 1 mounting - when a instance of a component is being created and inserted into DOM
 // 2 updating -when a component is being re-reneder as a result chnages to either its props or state
 // 3 unmounting - when a component is being removed from the DOM
-// 4 error handling - when there is an error during rendering , in a lifecycle method , or in the constructoe of any child component 
+// 4 error handling - when there is an error during rendering , in a lifecycle method , or in the constructor of any child component 
 
 //  1 mounting lifecycle methods
 // -> constructor(props) - special fiunction that will get called whenever a new component is created 

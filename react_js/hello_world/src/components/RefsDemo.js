@@ -10,7 +10,9 @@ import React, { Component } from 'react'
        }
 
      }
-    //   this is ude when ever the user enther the sign in page the user can directly start typing because it is going to focus on user name or any other we have define that 
+    //   this is used when ever the user enther the sign in page the 
+    // user can directly start typing because it is going to focus on user
+    //  name or any other we have define that 
 
     //  componentDidMount(){
     //     this.inputref.current.focus()
