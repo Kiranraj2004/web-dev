@@ -1,10 +1,17 @@
 //  import logo from './logo.svg';
 import './App.css';
-import ErrorBoundary from './components/ErrorBoundary';
-import Forwardparentrefs from './components/Forwardparentrefs';
-import Portals from './components/Portals';
-import RefsDemo from './components/RefsDemo';
-import Fragments from './fragments';
+import Index from './Hooks';
+import Functionalcounter from './Hooks/Functionalcounter';
+import Hookcounter from './Hooks/Hookcounter';
+import HookCounterfour from './Hooks/HookCounterfour';
+import HooksCounterThree from './Hooks/HooksCounterThree';
+import UseEffect from './Hooks/UseEffect';
+import UseEffectclass from './Hooks/useEffectclass';
+// import ErrorBoundary from './components/ErrorBoundary';
+// import Forwardparentrefs from './components/Forwardparentrefs';
+// import Portals from './components/Portals';
+// import RefsDemo from './components/RefsDemo';
+// import Fragments from './fragments';
 // import Hello from './jsx';
 // import Greet from './components/functional_components';
 // import Greet from './components/functional_components';
@@ -22,18 +29,18 @@ import Fragments from './fragments';
 // import Namelist from './list';
 // import Style_sheet from './components/Style_sheet';
 // import Form from './components/form';
-import Lifecycle from './LifecycleA';
-import Parentregularcomponent from './Parentregularcomponent';
-import Purecom from './Pureco';
-import LifecycleUA from './Updating_Lifecycle';
-import Errorhandler from './components/Errorhandler';
-import HigherOrderfunction from './components/HigherOrderfunction';
-import RenderProps from './components/RenderProps';
-import Renderpropsdemo from './components/Renderpropsdemo';
-import ComponentB from './components/ComponentB';
-import { Userprovider } from './components/Contextdemo';
-import Httprequestget from './Httprequestget';
-import Httppost from './Httppost';
+// import Lifecycle from './LifecycleA';
+// import Parentregularcomponent from './Parentregularcomponent';
+// import Purecom from './Pureco';
+// import LifecycleUA from './Updating_Lifecycle';
+// import Errorhandler from './components/Errorhandler';
+// import HigherOrderfunction from './components/HigherOrderfunction';
+// import RenderProps from './components/RenderProps';
+// import Renderpropsdemo from './components/Renderpropsdemo';
+// import ComponentB from './components/ComponentB';
+// import { Userprovider } from './components/Contextdemo';
+// import Httprequestget from './Httprequestget';
+// import Httppost from './Httppost';
 
 function App() {
   return (
@@ -101,7 +108,17 @@ function App() {
    </Userprovider> */}
    {/* <Httprequestget></Httprequestget>
     */}
-    <Httppost></Httppost>
+    {/* <Httppost></Httppost> */}
+    {/* <Index></Index> */}
+    {/* <Functionalcounter></Functionalcounter> */}
+    {/* <Hookcounter></Hookcounter> */}
+    {/* <HooksCounterThree></HooksCounterThree>
+     */}
+     {/* <HookCounterfour></HookCounterfour> */}
+     {/* <UseEffect></UseEffect> */}
+     <UseEffectclass></UseEffectclass>
+
+
     </div>
 
   );
