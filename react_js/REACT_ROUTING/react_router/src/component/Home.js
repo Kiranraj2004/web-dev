@@ -8,7 +8,7 @@ function Home() {
       <h1>Home Page</h1>
       {/*  the second argument of the naviagte hooks is it will go back to the home page og google */}
       <button onClick={()=>navigate('ordersummary',{replace:true})}> place order</button>
-      {/* Your component code */}
+      {/* Your component code */} 
     </div>
   );
 }

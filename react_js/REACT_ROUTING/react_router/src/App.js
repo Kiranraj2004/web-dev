@@ -1,6 +1,8 @@
 import { Routes,Route } from "react-router-dom";
 import Home from "./component/Home";
-import About from "./component/About";
+// import About from "./component/About";
+import React from "react";
+
 import Navbar from "./component/Navbar";
 import NavigatePrograminly from "./component/NavigatePrograminly";
 import NoMatch from "./component/NoMatch";
@@ -10,13 +12,16 @@ import New from "./component/Nested routes/New";
 import Users from "./component/Users";
 import Userdetails from "./component/Userdetails";
 import Admin from "./component/Admin";
+import Profile from "./component/Profile";
+const Lazyabout=React.lazy(()=>import ('./component/About'));
+//  
 function App() {
   return (
     <>
     <Navbar></Navbar>
      <Routes>
       <Route path="/" element={<Home></Home>}> </Route>
-      <Route path="about" element={<About></About>}></Route>
+      <Route path="about" element={<React.Suspense fallback='loading'><Lazyabout></Lazyabout></React.Suspense>}></Route>
       <Route path="ordersummary" element={<NavigatePrograminly></NavigatePrograminly>}></Route>
       <Route path="*" element={<NoMatch></NoMatch>}></Route>
       {/*  inn react the (*) asrtics means  if any og the route not matches then this will be render  */}
@@ -30,9 +35,7 @@ function App() {
       {/*  this will create the dymanic routing every time it will check the id if any matchs */}
       <Route path="user/admin" element={<Admin></Admin>}></Route>
       {/*  it first check the absoult link after this will checks whetehr the conetnt is avialable and else render the dynamic routing     */}
-
-
-      
+      <Route path="Profile" element={<Profile></Profile>}></Route>
     </Routes>
     </>
    

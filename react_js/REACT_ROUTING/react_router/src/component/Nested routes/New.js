@@ -3,7 +3,7 @@ import React from 'react'
 const New = () => {
   return (
     <div>
-        list og new products are rendered
+        list of new products are rendered
       
     </div>
   )

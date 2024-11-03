@@ -13,13 +13,9 @@ import ContexthooksB from './ContexthooksB';
 //  step 1 creating the context
  export const userContext=React.createContext();
  export const channel=React.createContext();
-
- 
 function Basic() {
   return (
     <div>
-
-
         {/* step 2 assign the values to that and warping the children inside that  because the context value should be used in that component */}
         <userContext.Provider value={'kiran'}>
             <channel.Provider value={'1nh22ai075'}>
