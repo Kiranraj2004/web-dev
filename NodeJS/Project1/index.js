@@ -3,7 +3,12 @@ const express = require('express');
 const users=require('./MOCK_DATA.json');
 const app = express();
 const PORT =8000;
+const fs=require('fs');
+// middleware plugin
+app.use(express.urlencoded({ extended:false }));
 //  **** GET METHOD rendering the html content
+
+
 app.get('/',(req,res)=>{
     const html=`<ol>
     ${users.map(user=>`<li>${user.first_name}</li>`).join('')} 
@@ -31,7 +36,12 @@ app.get('/api/users/:id',(req,res)=>{
 // *** POST /api/users -createnew users  
 app.post('/api/users', (req,res)=>{
     // adding the new user 
+    const body=req.body;
+    console.log(body);
+    users.push(...body,id=users.length+1);
+    fs.writeFile("./MOCK_DATA.json",JSON.stringify(user),(error, data)=>{
     return res.json("status pending ")
+    });
 });
 
 // patch to upadte any thing

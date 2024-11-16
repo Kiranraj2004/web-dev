@@ -1,1 +1,6 @@
-notes link : https://docs.google.com/document/d/1IOCN7zxmw2B5zmVAwje6unh9xkiBjf6M7BePNaB92RM/edit?tab=t.0
+intizaly 
+npm init;
+npm install express;
+npm index.js or node start ;
+npm i nodemon
+npm i mongoose ; for database
